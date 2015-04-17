@@ -1,0 +1,34 @@
+---
+controller:
+  memory: 8192
+  cpus: 4
+  address: 10.0.0.11
+  box: boxcutter/centos71
+network:
+  memory: 4096
+  cpus: 2
+  address: 10.0.0.21
+  box: boxcutter/centos71
+compute1:
+  memory: 4096
+  cpus: 2
+  address: 10.0.0.31
+  box: boxcutter/centos71
+block1:
+  memory: 4096
+  cpus: 2
+  address: 10.0.0.41
+  box: boxcutter/centos71
+  storage: 32768
+object1:
+  memory: 2048
+  cpus: 2
+  address: 10.0.0.51
+  box: boxcutter/centos71
+  storage: 32768
+object2:
+  memory: 2048
+  cpus: 2
+  address: 10.0.0.52
+  box: boxcutter/centos71
+  storage: 32768

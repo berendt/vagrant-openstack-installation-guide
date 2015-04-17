@@ -1,1 +1,0 @@
-# openstack-vagrant-installation-guide
